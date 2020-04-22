@@ -1,0 +1,24 @@
+h1 {color: #004488; text-align: center;}
+* {box-sizing: border-box;}
+body {margin:0; padding:0;}
+section {margin: 10px; border: 1px solid black; background-color: lightgreen;}
+body, section, p {
+font-family: Lucida Sans Unicode, Lucida Sans Unicode, serif;
+background-color: lightblue;
+}
+h2 {margin: 0; border: 1px solid black; float: right; font-size: 100%; font-weight: bold;}
+#title1 {background-color: pink;}
+#title2 {background-color: lightgreen;}
+#title3 {background-color: lightyellow;}
+p {padding: 10px 10px 10px 10px; font-size: 85%;}
+.row {width: 100%;}
+@media (min-width: 992px) {
+    .col-lg-4 {width: 30%; float:left;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {width: 45%; float:left;}
+    #a {width:92%;}
+}
+@media (max-width: 767px) {
+    .col-sm-12 {width: 100%; float: left; position: relative; right: 10px;}
+}
